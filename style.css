@@ -7,7 +7,7 @@ body{
     gap: 20px;
 }
 
-.colour-box{
+#colour-box{
     width: 15vw;
     height: 28vh;
     background-color: blue;
@@ -27,28 +27,28 @@ body{
     border-radius: 12px;
 }
 
-.red{
+#red{
     background-color: brown;
 }
 
-.green{
+#green{
     background-color: limegreen;
 }
 
-.blue{
+#blue{
     background-color: cyan;
 }
 
-.pink{
+#pink{
     background-color: palevioletred;
 }
 
-.yellow{
+#yellow{
     background-color: yellow;
 }
 
-.purple{
-    background-color: plum;
+#purple{
+    background-color: purple;
 }
 
 button{
