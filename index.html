@@ -7,23 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Guess the correct color</h1>
+    <h1 data-testid="gameInstructions">Guess the correct color</h1>
     <h3>Score: <span id="score" data-testid="score">0</span></h3>
 
-    <div class="colour-box" data-testid="colorBox">
+    <div id="colour-box" data-testid="colorBox">
 
     </div>
     <div class="btn">
-        <div class="box red"></div>
-        <div class="box green"></div>
-        <div class="box blue"></div>
-        <div class="box pink"></div>
-        <div class="box yellow"></div>
-        <div class="box purple"></div>
+        <div class="box " id="red" data-testid="colorOption"></div>
+        <div class="box " id="green" data-testid="colorOption"></div>
+        <div class="box " id="blue" data-testid="colorOption"></div>
+        <div class="box " id="pink" data-testid="colorOption"></div>
+        <div class="box " id="yellow" data-testid="colorOption"></div>
+        <div class="box " id="purple" data-testid="colorOption"></div>
     </div>
     <p id="gameStatus" data-testid="gameStatus"></p>
 
-    <button>New game</button>
+    <button data-testid="newGameButton"
+    >New game</button>
 
     <script src="index.js"></script>
 </body>
